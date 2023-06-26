@@ -1,1 +1,4 @@
 # PhonePepulse
+The primary objective of this project is to analyze and visualize the five-year transaction data (2018-2022) obtained from PhonePe's GitHub repository.The project starts by cloning the data from the GitHub repository and reading it using the os package.The data is then analyzed and visualized using the plotly and streamlit packages. The data is presented in various graph formats such as aggregated transactions, users, top transactions, and users for state, pincode, and district. The streamlit webpage allows the user to interact with the data and explore the different graphs, allowing for a deeper understanding of the trends and patterns within the data.Overall, this project provides a comprehensive analysis and visualization of PhonePe's transaction data, allowing for insights into the growth and trends of digital payments in India over the past five years.
+
+
