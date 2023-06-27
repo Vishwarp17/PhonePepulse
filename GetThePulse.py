@@ -6,11 +6,11 @@ import geopandas as gpd
 import plotly.graph_objects as go
 from PIL import Image
 
-payment_category_data = pd.read_csv('C:/Users/Admin/Desktop/notent/aggr_trans_ind_and_states.csv')
-transaction_analysis_data = pd.read_csv('C:/Users/Admin/Desktop/notent/map_tra_ind_and_states.csv')
-user_activity_data = pd.read_csv("C:/Users/Admin/Desktop/notent/map_user_ind_and_states.csv")
-top_transaction_data = pd.read_csv('C:/Users/Admin/Desktop/notent/top_tran_ind_and_states.csv')
-top_user_activity_data = pd.read_csv('C:/Users/Admin/Desktop/notent/top_user_ind_and_states.csv')
+payment_category_data = pd.read_csv('C:/Users/Admin/Desktop/notent/aggr_transaction1.csv')
+transaction_analysis_data = pd.read_csv('C:/Users/Admin/Desktop/notent/map_transaction1.csv')
+user_activity_data = pd.read_csv("C:/Users/Admin/Desktop/notent/map_user1.csv")
+top_transaction_data = pd.read_csv('C:/Users/Admin/Desktop/notent/top_transaction1.csv')
+top_user_activity_data = pd.read_csv('C:/Users/Admin/Desktop/notent/top_user1.csv')
 
 # Extracting the regions data
 payment_category_data_Locations = payment_category_data['state'].unique()
